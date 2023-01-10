@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { SearchInput } from "../../molecules/SearchInput";
-import { UserCard } from "../../organism/user/UserCard";
+import { SearchInput } from "../molecules/SearchInput";
+import { UserCard } from "../organism/user/UserCard";
 
 const users = [...Array(10).keys()].map((val) => {
   return {

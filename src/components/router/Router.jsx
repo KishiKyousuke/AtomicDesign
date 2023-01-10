@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { Top } from "../atoms/pages/Top";
-import { Users } from "../atoms/pages/Users";
+import { Top } from "../pages/Top";
+import { Users } from "../pages/Users";
 import { DefaultLayout } from "../templates/DefaultLayout";
 import { HeaderOnly } from "../templates/HeaderOnly";
 
